@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SimpleCalc</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <section class="main-page-container" id="main-page-container">
+        <h1>Welcome to simple calc appication!</h1>
+        <p class="main-paragraf">This application will help you to sum or multiply sequence of numbers. <br>
+            If you want to start - press the button "open calc" below.</p>
+        <button class="main-btn-open" id="main-btn-open">Open calc</button>
+    </section>
+
+    <section class="modal-page" id="modal-page">
+        <div class="modal-position-wrapper">
+            <div class="modal-container">
+                <h1 class="modal-title">Simple calc</h1>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th class="table-border res-width">Results</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-border tr-size" id="tr-color1">
+                            <td>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="checkbox" id="checkbox1">
+                                </div>
+                            </td>
+                            <td>
+                                <form action="#" class="form" id="form1">
+                                    <input type="number" class="input-number" id="input-number1" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number2" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number3" placeholder="input..">
+                                </form>
+                            </td>
+                            <td class="res-width">
+                                <output name="result" class="result" id="result1">0</output>
+                            </td>
+                        </tr>
+                        <tr class="table-border tr-size" id="tr-color2">
+                            <td>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="checkbox" id="checkbox2">
+                                </div>
+                            </td>
+                            <td>
+                                <form action="#" class="form" id="form2">
+                                    <input type="number" class="input-number" id="input-number4" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number5" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number6" placeholder="input..">
+                                </form>
+                            </td>
+                            <td class="res-width">
+                                <output name="result" class="result" id="result2">0</output>
+                            </td>
+                        </tr>
+                        <tr class="table-border tr-size" id="tr-color3">
+                            <td>
+                                <div class="checkbox-container">
+                                    <input type="checkbox" class="checkbox" id="checkbox3">
+                                </div>
+                            </td>
+                            <td>
+                                <form action="#" class="form" id="form3">
+                                    <input type="number" class="input-number" id="input-number7" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number8" placeholder="input..">
+                                    <input type="number" class="input-number" id="input-number9" placeholder="input..">
+                                </form>
+                            </td>
+                            <td class="res-width">
+                                <output name="result" class="result" id="result3">0</output>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="modal-choose-text">Choose box</p>
+                <div class="modal-btn-container">
+                    <div class="modal-summult-wrapper">
+                        <button class="modal-btn-sum btn-size" id="modal-btn-sum">Sum</button>
+                        <button class="modal-btn-multiply btn-size" id="modal-btn-multiply">Multiply</button>
+                    </div>
+                    <div class="modal-close-wrapper">
+                        <button class="modal-btn-close btn-size" id="modal-btn-close">Close calc</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
